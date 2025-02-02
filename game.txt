@@ -1,0 +1,11 @@
+What we start with:
+1. file with polygons containing list of points that create their absolute position, color and normal
+
+What we have to do:
+1. transform position of each point to match players position (put player position at [0, 0, 0])
+2. transform rotation of each point to match players rotation (put player rotation at [0, 0])
+3. project polygon points to get rid of "Z" dimension
+4. create polygons(triangles) out of the points (remember about the color)
+
+5. add player movement
+6. add simple shadows (normal based)
